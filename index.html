@@ -13,7 +13,7 @@
    <!-- header  section starts -->
 
 <header>
-   <a href="#" class="logo"><i class="fas fa-utensils"></i>food</a> 
+   <a href="./index2.html" class="logo"><i class="fas fa-utensils"></i>food</a> 
   
    <div id="menu-bar" class="fas fa-bars"></div>
   
@@ -21,7 +21,15 @@
         <a href="#home">home</a>
         <a href="#speciality">Speciality</a>
         <a href="#popular">Popular</a>
-        <a href="#gallery">Gallery</a>
+        <li class="dropdown">
+        <a href="index2.html" class="dropbtn">About</a>
+        <div class="dropdown-content">
+            <a href="#gallery">Gallery</a>  
+            <a href="./index2.html#manager">Managers</a>
+            <a href="./index2.html#chefs">Chefs</a>
+            <a href="./index2.html#waitors">Waitors</a>
+       </div>
+        </li>
         <a href="#review">Review</a>
         <a href="#order">Order</a>
    </nav>
@@ -269,8 +277,8 @@
 
 <!-- polpularr section ends -->
 
-<!--gallery section starts-->
 
+<!-- steps section starts -->
 <section class="steps">
     <div class="box">
         <img src="images/burgers-with-meat-patty-chips-fast-street-food_158863-7641.jpg">
@@ -294,10 +302,15 @@
         
     </div>
 </section>
+<!-- steps section ends -->
 
+
+<!--gallery section starts-->
 <section class="gallery" id="gallery">
     <hi class="heading">our food <span> gallery </span></hi>
     <div class="box-container">
+
+       
 
         <div class="box">
             <img src="images/burger4.jpg" alt="">
@@ -444,18 +457,12 @@
             </div>
         </div>
 
-
-
-
-
-
-
+        
     </div>
 </section>
-
-
-
 <!--gallery section ends-->
+
+
 
 <!--review section starts -->
 
@@ -542,17 +549,17 @@
         <form actions="">
              
             <div class="inputBox">
-                <input type="text" placeholder="name">
-                <input type="text" placeholder="email">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
             </div>
 
                
             <div class="inputBox">
-                <input type="number" placeholder="number">
-                <input type="text" placeholder="food name">
+                <input type="number" placeholder="Quantity">
+                <input type="text" placeholder="Food name">
             </div>
 
-            <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+            <textarea placeholder="Address" name="" id="" cols="30" rows="10"></textarea>
             <input type="submit"value="order now" class="btn">
 
 
@@ -580,8 +587,6 @@
         <a href="#" class="btn"><i class='bx bxl-pinterest'></i></a>
         <a href="#" class="btn"><i class='bx bxl-linkedin'></i></a>  
     </div>
-    <h1 class="credit"> created by <span> miss. Malyun & Fardowsa </span> | all rights reserved!</h1>
-
 </section>
 
 
