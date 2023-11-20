@@ -193,6 +193,49 @@ color: #333;
     color: #666;
     padding: 1rem 0;
 }
+
+.homes {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1.5rem;
+    min-height: 100vh;
+   align-items: center;
+   background: url(../pexel.jpg) no-repeat; 
+   background-size: cover; 
+   background-position: center;
+  }
+  .homes .content {
+    flex: 1 1 40rem; 
+    padding: 6.5rem; 
+  }
+  .homes .image {
+      flex: 1 1 40rem;  
+     
+  }
+  .homes .image img {
+    width: 100%;  
+    padding: 1rem;
+    animation: float 3s linear infinite;
+    
+  }
+  @keyframes float {
+   0%, 100% {
+      transform: translateY(0rem);
+   }   
+   50%{
+      transform: translateY(3rem);
+   }   
+  }
+  .homes .content h3 {
+  font-size: 5rem;
+  color: #333;
+  }
+  .homes .content p {
+      font-size: 1.7rem;
+      color: #666;
+      padding: 1rem 0;
+  }
+  
 .manager .box-container {
     display: flex;
     flex-wrap: wrap;
