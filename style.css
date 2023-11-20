@@ -82,7 +82,8 @@ header {
     justify-content: space-between;
     background: #fff;
     padding: 1rem 9%;
-    box-shadow: 0.1rem 1rem rgba(223, 226, 225, 0.87);
+    
+    box-shadow: 0 0.5rem 1rem rgb(0,0,0,.1);
 }
 
 
@@ -163,11 +164,17 @@ display: none;
 }
 .home .image {
     flex: 1 1 40rem;  
+   
 }
 .home .image img {
+    box-shadow: 0 0.5rem 1rem rgb(0,0,0,.5);
+    object-fit: cover;
+    height: 550px;
+    border-radius: 50%;
   width: 100%;  
   padding: 1rem;
   animation: float 3s linear infinite;
+  box-shadow: #000;
 }
 @keyframes float {
  0%, 100% {
